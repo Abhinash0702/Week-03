@@ -23,22 +23,22 @@ public class Problem02_ComapreStringBuilderAndStringBuffer {
     }
 
     public static void main(String[] args) {
-//        String word = "hello";
-//
-//        //calculating time for string builder
-//        long startTime1 = System.nanoTime();
-//        ConcatenateStringBuffer(word);
-//        long endTime1 = System.nanoTime();
-//        //time taken by stringBuilder
-//        System.out.println("Time taken by String Builder to Concatenate : "+Math.abs(startTime1-endTime1)+"ns");
-//
-//        //calculating time for StringBuffer
-//        long startTime2 = System.nanoTime();
-//        ConcatenateStringBuffer(word);
-//        long endTime2 = System.nanoTime();
-//        //time taken by stringBuffer
-//        System.out.println("Time taken by String Buffer to Concatenate : "+Math.abs(startTime2-endTime2)+"ns");
-//
+       String word = "hello";
+
+       //calculating time for string builder
+       long startTime1 = System.nanoTime();
+       ConcatenateStringBuffer(word);
+       long endTime1 = System.nanoTime();
+       //time taken by stringBuilder
+       System.out.println("Time taken by String Builder to Concatenate : "+Math.abs(startTime1-endTime1)+"ns");
+
+       //calculating time for StringBuffer
+       long startTime2 = System.nanoTime();
+       ConcatenateStringBuffer(word);
+       long endTime2 = System.nanoTime();
+       //time taken by stringBuffer
+       System.out.println("Time taken by String Buffer to Concatenate : "+Math.abs(startTime2-endTime2)+"ns");
+
 
     }
 }
